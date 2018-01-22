@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Meu portfolio">
+    <meta name="author" content="Vanderlei Mendes">
+
+    <title>Vanderlei Mendes {Desenvolvedor} - Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">    
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Vanderlei Mendes {desenvolvedor} - portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Início
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>            
+            <li class="dropdown">
+              <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Projetos
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Orçamentos Comerciais</a></li>
+                <li><a class="dropdown-item" href="#">Site Banda Erva Matt</a></li>
+                <li><a class="dropdown-item" href="#">Controle de clientes</a></li>
+                <li><a class="dropdown-item" href="#">Port scanner Mobile</a></li>
+                <li><a class="dropdown-item" href="#">Port scanner Desktop</a></li>
+                <li><a class="dropdown-item" href="#">Diversos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4">Vorc Orçamentos Comerciais<br />
+        <small id="screen-text">Tela inicial</small>
+      </h1>
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <img id="img-main" class="img-fluid" src="pofopics/vorc/main.png" alt="">
+        </div>
+
+        <div class="col-md-4">
+          <h3 class="my-3">Project Description</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+          <h3 class="my-3">Project Details</h3>
+          <ul>
+            <li>Lorem Ipsum</li>
+            <li>Dolor Sit Amet</li>
+            <li>Consectetur</li>
+            <li>Adipiscing Elit</li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">Screnshots deste projeto</h3>
+
+      <div class="row">
+
+        <div class="col-md-2 col-sm-6 mb-4">
+          <a href="#">
+            <img id="img-01" class="img-fluid img-thumbnail" 
+              src="pofopics/vorc/h250/cadcli.jpg" alt="Cadastro de clientes">
+          </a>
+        </div>
+
+        <div class="col-md-2 col-sm-6 mb-4">
+          <a href="#">
+            <img id="img-02" class="img-fluid img-thumbnail" 
+              src="pofopics/vorc/h250/cadprod.jpg" alt="Cadastro de produtos">
+          </a>
+        </div>
+
+        <div class="col-md-2 col-sm-6 mb-4">
+          <a href="#">
+            <img id="img-03" class="img-fluid img-thumbnail" 
+              src="pofopics/vorc/h250/config.jpg" alt="Tela de configuração">
+          </a>
+        </div>
+
+        <div class="col-md-2 col-sm-6 mb-4">
+          <a href="#">
+            <img id="img-04" class="img-fluid img-thumbnail" 
+              src="pofopics/vorc/h250/orc.jpg" alt="Cadastro d e orçamentos">
+          </a>
+        </div>
+
+        <div class="col-md-2 col-sm-6 mb-4">
+          <a href="#">
+            <img id="img-05" class="img-fluid img-thumbnail" 
+              src="pofopics/vorc/h250/print.jpg" alt="Tela de impressão">
+          </a>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Vanderlei Mendes - Análise e Desenvolvimento de Sistemas 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      //Variable part
+      var imgArray = [
+        'cadcli.png',
+        'cadprod.png',
+        'config.png',
+        'main.png',
+        'orc.png',
+        'print.png'
+        ];
+        
+        var screenName = [
+        'Cadastro de clientes',
+        'Cadastro de produtos',
+        'Tela de configuração',
+        'Tela inicial',
+        'Cadastro de orçamentos',
+        'Salvar e imprimir '
+        ];
+
+      var imgPath = 'pofopics/vorc/';
+      //End variable part
+
+      var img_src;
+      $( ".img-thumbnail" ).click(function() {
+        img_src = this.src;
+        var start = img_src.search('h250/') + 5;
+        var end = img_src.search('.jpg');
+        var img_src = img_src.substring(start, end);        
+        img_src = getExtension(img_src);
+        var textIndex = imgArray.indexOf(img_src);        
+
+        $('#screen-text').text(screenName[textIndex]);        
+        $('#img-main').attr('src', imgPath + img_src);
+      });      
+
+      function getExtension(pic_name){        
+        var jpg = pic_name + '.jpg';
+        var png = pic_name + '.png';
+        var gif = pic_name + '.gif';
+        var imgReturn;
+        
+        if(imgArray.indexOf(jpg) > -1)
+          imgReturn = jpg;        
+        else if(imgArray.indexOf(png) > -1)
+          imgReturn = png;
+        else
+          imgReturn = gif;
+
+        return imgReturn;     
+      }
+    </script>
+
+  </body>
+
+</html>
