@@ -93,6 +93,13 @@
 
       <div class="row">
 
+          <div class="col-md-2 col-sm-6 mb-4">
+              <a href="#">
+                <img class="img-fluid img-thumbnail" 
+                  src="pofopics/vorc/h250/main.jpg" alt="Cadastro de clientes">
+              </a>
+            </div>
+
         <div class="col-md-2 col-sm-6 mb-4">
           <a href="#">
             <img id="img-01" class="img-fluid img-thumbnail" 
@@ -147,7 +154,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script>
-      //Variable part
+      //Variable part for all pages
       var imgArray = [
         'cadcli.png',
         'cadprod.png',
@@ -169,9 +176,9 @@
       var imgPath = 'pofopics/vorc/';
       //End variable part
 
-      var img_src;
+      
       $( ".img-thumbnail" ).click(function() {
-        img_src = this.src;
+        var img_src = this.src;
         var start = img_src.search('h250/') + 5;
         var end = img_src.search('.jpg');
         var img_src = img_src.substring(start, end);        
