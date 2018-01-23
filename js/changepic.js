@@ -1,3 +1,4 @@
+//Change project images
 $( ".img-thumbnail" ).click(function() {
     var img_src = this.src;
     var start = img_src.search('h250/') + 5;
@@ -25,3 +26,18 @@ $( ".img-thumbnail" ).click(function() {
     
     return imgReturn;     
   }
+
+  //Adjust bar text for mobile
+  function changeBarText(){
+    var width = $(window).width();    
+    if(width > 520)
+      $('.navbar-brand').text('Vanderlei Mendes {desenvolvedor} - Portfolio');        
+    else
+      $('.navbar-brand').text('Vanderlei - portfolio');
+  }
+
+  $(window).resize(function(){
+    changeBarText();
+  });  
+
+  changeBarText();
